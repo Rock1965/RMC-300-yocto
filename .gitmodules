@@ -5,3 +5,11 @@
 [submodule "yocto-base/meta-gstreamer1.0"]
 	path = yocto-base/meta-gstreamer1.0
 	url = https://github.com/dv1/meta-gstreamer1.0.git
+[submodule "yocto-base/meta-openembedded-fido"]
+	path = yocto-base/meta-openembedded-fido
+	url = git://git.openembedded.org/meta-openembedded.git
+	branch = fido
+[submodule "yocto-base/meta-raspberrypi-fido"]
+	path = yocto-base/meta-raspberrypi-fido
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = fido
