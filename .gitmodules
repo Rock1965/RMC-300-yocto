@@ -1,0 +1,4 @@
+[submodule "yocto-base/meta-qt5-fido"]
+	path = yocto-base/meta-qt5-fido
+	url = git://github.com/meta-qt5/meta-qt5.git
+	branch = fido
