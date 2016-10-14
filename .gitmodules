@@ -2,3 +2,6 @@
 	path = yocto-base/meta-qt5-fido
 	url = git://github.com/meta-qt5/meta-qt5.git
 	branch = fido
+[submodule "yocto-base/meta-gstreamer1.0"]
+	path = yocto-base/meta-gstreamer1.0
+	url = https://github.com/dv1/meta-gstreamer1.0.git
