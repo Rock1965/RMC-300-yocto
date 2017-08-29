@@ -6,9 +6,11 @@
 
 
 # How to build
-1. clone https://github.com/Rock1965/rmc-300-yocto.git
-2. cd rmc-300-yocto
-3. git submodule init
-4. git submodule update
-5. yocto-base/poky-fido/oe-init-build-env build-rpi2 (build-rpi)
-6. bitbake kongja-rpi-qt5-image
+1. mkdir raspberry
+2. cd raspberry
+3. clone https://github.com/Rock1965/rmc-300-yocto.git
+4. cd rmc-300-yocto
+5. git submodule init
+6. git submodule update
+7. yocto-base/poky-fido/oe-init-build-env build-rpi2 (build-rpi)
+8. bitbake kongja-rpi-qt5-image
